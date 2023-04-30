@@ -1,0 +1,27 @@
+{
+    "name": "hstanleycrow/easyphpcurlrequest",
+    "description": "Free PHP Class to make Http Request using cURL",
+    "keywords": [
+        "cURL",
+        "http request",
+        "php"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/hstanleycrow/EasyPHPcURLRequest",
+    "authors": [
+        {
+            "name": "Harold Rivas AKA Harold Crow",
+            "email": "holamundo@microaplicaciones.com",
+            "homepage": "https://www.microaplicaciones.com/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "hstanleycrow\\EasyPHPcURLRequest\\": "src"
+        }
+    }
+}
