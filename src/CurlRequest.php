@@ -38,7 +38,7 @@ class CurlRequest
             curl_close($ch);
             $this->completed = ($this->result ? true : false);
         } catch (\Exception $e) {
-            throw new HttpRequestException(self::ERROR_MESSAGES[self::HTTP_REQUEST_ERROR] . " " . $e->getMessage());
+            throw new \Exception(self::ERROR_MESSAGES[self::HTTP_REQUEST_ERROR] . " " . $e->getMessage());
         }
     }
 
