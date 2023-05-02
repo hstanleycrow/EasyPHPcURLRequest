@@ -21,6 +21,9 @@ $ git clone https://github.com/hstanleycrow/EasyPHPcURLRequest/
 
 # install libraries
 $ composer update
+
+# or install using composer
+$ composer require hstanleycrow/easyphpcurlrequest
 ```
 
 ### Examples
